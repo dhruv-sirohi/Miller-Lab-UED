@@ -11,11 +11,21 @@ Applying Machine Learning techniques to solid state physics. More specifically, 
   
 ### Project 1: Synthetic Data Classification
 
-  Diffraction data is generated using CrystalMaker 9 (http://crystalmaker.com/) by varying atomic displacements parameters such as Uiso. It is labeled by the value of the parameter which is being varied.
+  Diffraction data was generated using CrystalMaker 9 (http://crystalmaker.com/) by varying atomic displacements parameters such as Uiso. The data was labeled by the value of the varied parameter. The generated dataset was relatively tiny, only made up of 165 diffraction patterns, which posed a challenge for generability.
   
-  This data is used to train a CNN for a regression (if there is a large number of labels) or image classification (if there are relatively fewer labels).
+  This data was used to train a CNN to classify the diffraction patterns. After 65 epochs, the network attained a validation accuracy of ~92%.
+
   
-  The performance of transfer learning approaches (convolutional layers pretrained on ImageNet are used) is also determined
+<p align="center">
+  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Accuracy_Plot.png"/>
+</p>
+ 
+<div align="center"> Test Accuracy over Training
+
+<div align="left"> 
+  
+
+
   
 ### To Do:
   Provide an introduction to diffraction + Bragg's Law
