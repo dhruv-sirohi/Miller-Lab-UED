@@ -1,5 +1,6 @@
 # Miller-Lab-UED
-Applying Machine Learning techniques to solid state physics. More specifically, classifying molecules by the diffraction patterns made by ultrafast electron pulses.
+Applying Machine Learning techniques to solid state physics. 
+Currently focused on classifying molecules by the diffraction patterns made by ultrafast electron pulses.
 
 <p align="center">
   <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Bismuth_Diffraction_Pattern.png?raw=true"/>
