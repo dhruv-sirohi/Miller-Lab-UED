@@ -5,7 +5,7 @@ Applying Machine Learning techniques to solid state physics. More specifically, 
   <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Bismuth_Diffraction_Pattern.png?raw=true"/>
 </p>
  
-<div align="center"> Electron Diffraction Pattern for Bismuth Powder
+<div align="center"> Electron Diffraction Pattern for Powdered Bismuth
 
 <div align="left"> 
   
