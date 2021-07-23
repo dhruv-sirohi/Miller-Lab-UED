@@ -18,6 +18,5 @@ Applying Machine Learning techniques to solid state physics. More specifically, 
   The performance of transfer learning approaches (convolutional layers pretrained on ImageNet are used) is also determined
   
 ### To Do:
-  Document Code (in progress)
-  Provide background on diffraction + Bragg's Law
+  Provide an introduction to diffraction + Bragg's Law
 
