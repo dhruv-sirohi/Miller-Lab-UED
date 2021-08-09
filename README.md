@@ -1,4 +1,4 @@
-# Miller-Lab-UED
+# UED-Net
 Applying Machine Learning techniques to solid state physics. 
 Currently focused on classifying molecules by the diffraction patterns made by ultrafast electron pulses.
 
