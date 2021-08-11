@@ -40,5 +40,6 @@ This neural net was then applied to data collected in the lab. Because of uiso's
 
   
 ### To Do:
-  Provide an introduction to diffraction + Bragg's Law
+  Provide an introduction to diffraction + Bragg's Law  
+  Write documentation for Processing_Data.py
 
