@@ -1,3 +1,4 @@
+#Macro script which automatically generates diffraction profiles in a given range using CrystalMaker 
 import mouse
 import keyboard
 import time
