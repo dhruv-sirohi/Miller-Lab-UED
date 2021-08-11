@@ -3,7 +3,7 @@ Applying Machine Learning techniques to solid state physics.
 Currently focused on classifying molecules by the diffraction patterns made by ultrafast electron pulses.
 
 <p align="center">
-  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Bismuth_Diffraction_Pattern.png?raw=true"/>
+  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/Bismuth_Diffraction_Pattern.png?raw=true"/>
 </p>
  
 <div align="center"> Powdered Bismuth's Electron Diffraction Pattern
@@ -18,7 +18,7 @@ This data was used to train a CNN to classify the diffraction patterns. After 65
 
   
 <p align="center">
-  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Accuracy_Plot.png"/>
+  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/Accuracy_Plot.png"/>
 </p>
  
 <div align="center"> Test Accuracy over Training
@@ -30,8 +30,8 @@ This data was used to train a CNN to classify the diffraction patterns. After 65
 This neural net was then applied to data collected in the lab. Because of uiso's relationship with temperature, it should increase over the course of a scan. Ideally, the network would detect this and would show a gradual increase in uiso as a scan progresses. While this is seen in _some_ cases, this is not always the case.
   
 <p align="center">
-  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/02_21_scan_12.png"/>
-  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/02_21_scan_14.png"/> 
+  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/02_21_scan_12.png"/>
+  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/02_21_scan_14.png"/> 
 </p> 
 
 <div align="center"> 
