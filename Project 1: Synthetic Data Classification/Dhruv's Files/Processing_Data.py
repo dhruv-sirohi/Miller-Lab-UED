@@ -1,10 +1,11 @@
+#Converts lab data from .TIF to .npy for upload to Google Drive
 import os
 import numpy as np
 from PIL import Image
 import cv2 as cv
 import matplotlib.pyplot as plt
 import time
-data_pull_dir = r'C:\Users\dhruv\Downloads\Bismuth_Data' #location of folder with bismuth data in .TIF format
+data_pull_dir = r'C:\Users\dhruv\Downloads\Bismuth_Data' #location of folder with original bismuth data
 data_push_dir = r'C:\Users\dhruv\Downloads\Bismuth_Data_Processed' #location of folder that will store processed .NPY data
 dims = (150,150)
 
