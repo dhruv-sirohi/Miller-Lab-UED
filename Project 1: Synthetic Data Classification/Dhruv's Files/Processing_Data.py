@@ -4,23 +4,24 @@ from PIL import Image
 import cv2 as cv
 import matplotlib.pyplot as plt
 import time
-data_pull_dir = r'C:\Users\dhruv\Downloads\Bismuth_Data'
-data_push_dir = r'C:\Users\dhruv\Downloads\Bismuth_Data_Processed'
+data_pull_dir = r'C:\Users\dhruv\Downloads\Bismuth_Data' #location of folder with bismuth data in .TIF format
+data_push_dir = r'C:\Users\dhruv\Downloads\Bismuth_Data_Processed' #location of folder that will store processed .NPY data
 dims = (150,150)
 
 file_num = 0
 
 #source: https://www.codespeedy.com/how-to-iterate-over-files-in-a-given-directory-in-python/
 
+#empties folder where files will be stored
 for subdirectories, directories, files in os.walk(data_push_dir):
     for file_name in files:
         file_loc = subdirectories + os.path.sep + file_name
-        if file_loc.endswith(".jpg") or file_loc.endswith(".tiff") or file_loc.endswith(".TIF") or file_loc.endswith(".TIFF"):
+        if file_loc.endswith(".jpg") or file_loc.lower().endswith(".tiff") or file_loc.lower().endswith(".tif"):
             os.remove(file_loc)
 
 print("done removing files")
 
-"""
+
 max_vals = []
 file_names = []
 for subdirectories, directories, files in os.walk(data_pull_dir):
@@ -28,7 +29,6 @@ for subdirectories, directories, files in os.walk(data_pull_dir):
         file_loc = subdirectories + os.path.sep + file_name
         if file_loc.endswith(".tiff"):
             
-            #print(file_loc)
             print("file #{}".format(str(file_num)))
             file_num += 1
             photo = Image.open(file_loc)
@@ -54,4 +54,4 @@ for i in range(0,10):
 
 
 print("done")
-"""
+
