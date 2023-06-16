@@ -1,6 +1,6 @@
 # Novel applications of Generative Adversarial Networks (GANs) in the analysis of ultrafast electron diffraction (UED) images
 Applying Machine Learning techniques to solid state physics. 
-Currently focused on predicting the ultrafast temperature changes of bismuth molecules, pumped by 800 nm 100 fs laser pulses, through the analysis of the diffraction patterns obtained via ultrafast electron pulses.
+Currently focused on predicting the ultrafast temperature changes of bismuth atoms, pumped by 800 nm 100 fs laser pulses, through the analysis of the diffraction patterns obtained via ultrafast electron pulses.
 
 <p align="center">
   <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/Bismuth_Diffraction_Pattern.png?raw=true"/>
