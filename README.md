@@ -1,4 +1,4 @@
-# UED-Net
+# Novel applications of Generative Adversarial Networks (GANs) in the analysis of ultrafast electron diffraction (UED) images
 Applying Machine Learning techniques to solid state physics. 
 Currently focused on classifying molecules by the diffraction patterns made by ultrafast electron pulses.
 
@@ -9,37 +9,14 @@ Currently focused on classifying molecules by the diffraction patterns made by u
 <div align="center"> Powdered Bismuth's Electron Diffraction Pattern
 
 <div align="left"> 
-  
-### Project 1: Synthetic Data Classification
 
-  Diffraction data was generated using CrystalMaker 9 (http://crystalmaker.com/) by varying atomic displacements parameters such as uiso. The data was labeled by uiso value. The generated dataset was relatively tiny, only made up of 165 diffraction patterns, which posed a challenge for generability.
-  
-This data was used to train a CNN to classify the diffraction patterns. After 65 epochs, the network attained a validation accuracy of ~94%.
+### Running the Jupyter notebook 
 
-  
-<p align="center">
-  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/Accuracy_Plot.png"/>
-</p>
- 
-<div align="center"> Test Accuracy over Training
+Prior to running the notebook, multiple files must be downloaded:
+1. The network weights (available here:  https://drive.google.com/drive/folders/1-I5mCXXeSGTpHQVul5g96EmWVlzqXnGF?usp=sharing)
+2. The synthetic dataset (available here: https://drive.google.com/drive/folders/1Im-cxjH_oLr3xY7Ow2MuYI0gp7ZzPgqf?usp=sharing)
+3. The dataset of lab images (available here: https://drive.google.com/drive/folders/1A4mSKqP-3tkd6p9l9n1eB8jD9b9zQcoa?usp=sharing)
 
-<div align="left"> 
+The Jupyter notebook accesses these files using the Google Drive library, so it is advised to save these files to your Google Drive and load them into your Colab instance from there.
 
-<br />
-  
-This neural net was then applied to data collected in the lab. Because of uiso's relationship with temperature, it should increase over the course of a scan. Ideally, the network would detect this and would show a gradual increase in uiso as a scan progresses. While this is seen in _some_ cases, this is not always the case.
-  
-<p align="center">
-  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/02_21_scan_12.png"/>
-  <img src="https://github.com/dhruv-sirohi/Miller-Lab-UED/blob/main/Project%201:%20Synthetic%20Data%20Classification/Plots%20%2B%20Scans/02_21_scan_14.png"/> 
-</p> 
-
-<div align="center"> 
-  Predicted uiso values for scan #12 (left) and scan #14 (right). <br /> The trend of the predicted values on the left resembles the expected trend in uiso values
-<div align="left"> 
-
-  
-### To Do:
-  Provide an introduction to diffraction + Bragg's Law  
-  Write documentation for Processing_Data.py
-
+Upon changing the default folder paths in the notebook for the datasets and weights to their paths in your instance, the notebook can be run sequentially. Additional documentation can be found in the notebook to explain individual code snippets.
