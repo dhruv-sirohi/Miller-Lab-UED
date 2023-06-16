@@ -12,6 +12,8 @@ Currently focused on classifying molecules by the diffraction patterns made by u
 
 ### Running the Jupyter notebook 
 
+The paper's code can be found in a Jupyter notebook available in the root directory.
+
 Prior to running the notebook, multiple files must be downloaded:
 1. The network weights (available here:  https://drive.google.com/drive/folders/1-I5mCXXeSGTpHQVul5g96EmWVlzqXnGF?usp=sharing)
 2. The synthetic dataset (available here: https://drive.google.com/drive/folders/1Im-cxjH_oLr3xY7Ow2MuYI0gp7ZzPgqf?usp=sharing)
